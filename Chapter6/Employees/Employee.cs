@@ -1,6 +1,6 @@
 ﻿namespace Employees;
 
-partial class Employee
+abstract partial class Employee
 {
     // Constructors.
     public Employee() { }
@@ -31,7 +31,7 @@ partial class Employee
         };
     }
 
-    public void DisplayStats()
+    public virtual void DisplayStats()
     {
         Console.WriteLine("Name: {0}", Name);
         Console.WriteLine("ID: {0}", Id);

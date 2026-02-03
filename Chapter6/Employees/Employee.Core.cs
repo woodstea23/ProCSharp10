@@ -1,9 +1,9 @@
 ﻿namespace Employees;
 
-partial class Employee
+abstract partial class Employee
 {
     // Field data.
-    private string _empName;
+    private string _empName = string.Empty;
 
     // Properties!
     public string Name
