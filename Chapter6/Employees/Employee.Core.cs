@@ -28,8 +28,9 @@ abstract partial class Employee
     public int Age { get; set; }
     public EmployeePayTypeEnum PayType { get; set; }
     
-    // Private setter - can only be set within the class
-    public string SocialSecurityNumber { get; private set; } = string.Empty;
+    // Textbook: Private setter - can only be set within the class
+    // Changed to init-only property - can only be set during object initialization
+    public string SocialSecurityNumber { get; init; } = string.Empty;
 
 }
 

@@ -20,7 +20,7 @@ abstract partial class Employee
     }
 
     // Methods.
-    public void GiveBonus(float amount)
+    public virtual void GiveBonus(float amount)
     {
         Pay = this switch
         {
