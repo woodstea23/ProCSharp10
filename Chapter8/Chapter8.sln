@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomInterfaces", "CustomInterfaces\CustomInterfaces.csproj", "{B06FD2CB-247C-40F6-B454-1FE42503939B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceNameClash", "InterfaceNameClash\InterfaceNameClash.csproj", "{151C5B06-9D4F-4A51-AE8F-0AD5E28882DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B06FD2CB-247C-40F6-B454-1FE42503939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06FD2CB-247C-40F6-B454-1FE42503939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B06FD2CB-247C-40F6-B454-1FE42503939B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151C5B06-9D4F-4A51-AE8F-0AD5E28882DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151C5B06-9D4F-4A51-AE8F-0AD5E28882DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151C5B06-9D4F-4A51-AE8F-0AD5E28882DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151C5B06-9D4F-4A51-AE8F-0AD5E28882DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

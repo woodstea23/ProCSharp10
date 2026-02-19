@@ -1,8 +1,14 @@
 ﻿using CustomInterfaces;
 
-Console.WriteLine("A first look at Interfaces");
-CloneableExample();
+// Console.WriteLine("A first look at Interfaces");
+// CloneableExample();
 
+Hexagon hex = new Hexagon();
+Console.WriteLine($"Points: {hex.Points}");
+Console.ReadLine();
+
+
+/* 
 static void CloneableExample()
 {
     // All of these classes support the ICloneable interface.
@@ -26,4 +32,5 @@ static void CloneableExample()
         Console.WriteLine($"Same reference? {object.ReferenceEquals(c, clone)}");
     }
 
-}
+} 
+*/
